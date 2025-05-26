@@ -1,11 +1,17 @@
-# Sentiment Analysis with Pre-trained Models
-
-This project uses Hugging Face Transformers to perform sentiment analysis on text using pre-trained models like BERT.
+This project demonstrates how to perform sentiment analysis using a pre-trained DistilBERT model fine-tuned on the SST-2 dataset. The model classifies input text into **positive** or **negative** sentiment.
 
 ## Features
-- Pre-trained model: `distilbert-base-uncased-finetuned-sst-2-english`
-- Returns sentiment labels and confidence score
-- CLI input interface
+
+- Uses Hugging Face Transformers library
+- Simple Python script for sentiment classification
+- No training required — uses a ready-to-use model
+
+## Requirements
+
+- Python 3.7+
+- `transformers` library
+- `torch` (PyTorch) library
+
 
 ## Installation
 ```bash
